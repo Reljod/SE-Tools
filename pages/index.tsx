@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Reljod's Webpage</title>
+        <title>SE Tools</title>
       </Head>
       <NavBar>
         <Main id="home-page">
