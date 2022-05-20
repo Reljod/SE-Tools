@@ -21,7 +21,7 @@ body {
 }
 
 #clock {
-	font-size: 7rem;
+	font-size: 6.5rem;
 }
 
 @media (min-width: 640px) {
