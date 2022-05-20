@@ -292,12 +292,11 @@ const Pomodoro = (props: Props) => {
                 />
               </div>
             </div>
-            <div className='flex flex-row md:flex-col md:mt-8 md:ml-4'>
-                <div id="break-clock" className={`flex w-1/2 md:w-full text-3xl p-4 m-2 border-2 border-gray-700 hover:bg-gray-600 rounded-lg ${curControl === Controls.BREAK_CLOCK && "bg-gray-600 text-primary"}`} onClick={() => setCurControl(Controls.BREAK_CLOCK)}>
-                  <p>{convertTimeToTimerFormat(breakMinutes, breakSeconds)}</p>
-                  <div id="icon"></div>
+            <div className='flex flex-row md:flex-col md:mt-8 md:ml-3'>
+                <div id="break-clock" className={`flex w-1/2 md:w-full self-center text-3xl p-4 m-2 border-2 border-gray-700 hover:bg-gray-600 rounded-lg ${curControl === Controls.BREAK_CLOCK && "bg-gray-600 text-primary"}`} onClick={() => setCurControl(Controls.BREAK_CLOCK)}>
+                  <p className='text-center mx-auto'>{convertTimeToTimerFormat(breakMinutes, breakSeconds)}</p>
                 </div>
-                <div id="clock-cycle" className={`flex w-1/2 md:w-full text-3xl p-4 m-2 justify-center border-2 border-gray-700 hover:bg-gray-600 rounded-lg ${curControl === Controls.CYCLE && "bg-gray-600 text-primary"}`} onClick={() => setCurControl(Controls.CYCLE)}>
+                <div id="clock-cycle" className={`flex w-1/2 md:w-full self-center text-3xl p-4 m-2 justify-center border-2 border-gray-700 hover:bg-gray-600 rounded-lg ${curControl === Controls.CYCLE && "bg-gray-600 text-primary"}`} onClick={() => setCurControl(Controls.CYCLE)}>
                   <p>{cycleCount}</p>
                 </div>
             </div>
