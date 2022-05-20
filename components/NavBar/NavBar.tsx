@@ -8,7 +8,7 @@ type Props = {
 const NavBar = (props: Props): JSX.Element => {
   return (
     <>
-      <nav className="fixed container mx-auto p-6 inline-block">
+      <nav className="fixed p-2 px-8 block z-10 w-screen bg-stone-900">
         <div className='flex items-center justify-between'>
           <span id="logo" className="text-3xl self-start text-primary-focus md:text-4xl">
             <Link href="/">SE Tools</Link>
