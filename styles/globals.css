@@ -21,7 +21,13 @@ body {
 }
 
 #clock {
-	font-size: 8rem;
+	font-size: 7rem;
+}
+
+@media (min-width: 640px) {
+	#clock {
+		font-size: 11rem;
+	}	
 }
 
 @media (min-width: 768px) {

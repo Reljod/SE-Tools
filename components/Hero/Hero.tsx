@@ -6,7 +6,7 @@ type Props = {}
 
 const Hero = (props: Props) => {
   return (
-	<section id='hero' className='flex flex-col-reverse items-center md:flex-row md:grid md:grid-cols-12 mt-20'>
+	<section id='hero' className='flex flex-col-reverse items-center justify-center md:flex-row md:grid md:grid-cols-12 h-screen'>
 		<div className='flex flex-col items-center justify-center md:justify-start md:col-span-4'>
 			<h1 className='text-3xl md:text-5xl'>Welcome to <br/><span className='text-primary font-bold text-4xl md:text-6xl'> SE Tools </span>
 			</h1>
