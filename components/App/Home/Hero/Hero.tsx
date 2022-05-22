@@ -15,7 +15,7 @@ const Hero = (props: Props) => {
         Engineers in the world! This is still at the early development so expect things to be minimal
         at first.
 			</h3>
-      <Link href="#tools-grid">
+      <Link href="/tools">
         <button id='get-started' className='bg-primary text-gray-50 text-lg px-4 py-1 my-1 rounded-full hover:bg-green-600 active:bg-green-700 md:my-2 md:text-xl'>
           Get started
         </button>
