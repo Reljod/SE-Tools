@@ -47,7 +47,7 @@ const MainClock = ( { minutes, seconds, onClick }: Props) => {
   return (
     <div 
       id="clock" 
-      className={"col-auto text-8xl rounder-3xl md:text-9xl hover:bg-gray-800 " + `${clockStyle}`}
+      className={"col-auto text-5xl rounder-3xl sm:text-6xl md:text-9xl hover:bg-gray-800 " + `${clockStyle}`}
       onClick={onClick}
     >
       {(state.clockState !== ClockState.EndState) ? convertTimeToTimerFormat(minutes, seconds) : convertTimeToTimerFormat(0, 0)}
