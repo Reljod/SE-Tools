@@ -7,7 +7,7 @@ type Props = {
 
 const Main = (props: Props) => {
   return (
-	<main id={props.id} className='container p-6 mx-auto h-full overflow-clip'>
+	<main id={props.id} className='container md:mx-auto px-1 py-6 lg:p-6 min-h-full max-h-screen min-w-screen '>
 		{props.children}
 	</main>
   )
